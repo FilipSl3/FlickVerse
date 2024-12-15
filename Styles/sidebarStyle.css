@@ -25,6 +25,9 @@
    width: 100%;
    cursor: pointer;
 }
+.sidebarIcon a{
+   margin: auto;
+}
 
 .sidebarIcon:hover {
    background-color: rgba(0, 0, 0, 0.1);
