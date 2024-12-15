@@ -11,6 +11,8 @@ p{
    margin-bottom: 0;
  }
 
+ /* RWD */
+
  @media (max-width: 900px) {
    body {
       padding-top: 50px;

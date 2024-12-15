@@ -68,6 +68,7 @@
    object-position: center;
 }
 
+/* RWD */
 
 @media (max-width: 1400px) {
   .videoGrid {

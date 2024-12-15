@@ -59,10 +59,7 @@
    margin-left:15px;
 }
 
-
-
-
-
+/* RWD */
 
 @media (max-width: 900px) {
    .sidebar {

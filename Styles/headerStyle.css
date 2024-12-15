@@ -156,7 +156,7 @@
 }
 
 .rightHeader a::after {
-   content: attr(data-tooltip); /* Pobiera tekst z data-tooltip */
+   content: attr(data-tooltip);
    position: absolute;
    bottom: -40px;
    left: 50%;
@@ -167,12 +167,12 @@
    border-radius: 5px;
    font-size: 12px;
    white-space: nowrap;
-   display: none; /* Ukrywa domyślnie */
+   display: none;
    z-index: 100;
 }
 
 .rightHeader a:hover::after {
-   display: block; /* Pokazuje tooltip po najechaniu */
+   display: block;
 }
 
 
@@ -185,6 +185,8 @@
 #toggleSearch{
    display: none;
 }
+
+/* RWD */
 
 @media (max-width: 900px) {
    .header.expanded .centerHeader,
