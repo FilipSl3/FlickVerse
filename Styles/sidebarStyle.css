@@ -19,14 +19,18 @@
 }
 
 .sidebarIcon {
-   display: flex;
-   align-items: center;
    padding: 10px;
    width: 100%;
    cursor: pointer;
+   text-align: left;
 }
 .sidebarIcon a{
-   margin: auto;
+   margin: auto;   
+   display: flex;
+   text-decoration: none;
+   color: inherit;
+   cursor: pointer;
+   align-items: center;
 }
 
 .sidebarIcon:hover {
@@ -54,6 +58,9 @@
    margin: 0;
    margin-left:15px;
 }
+
+
+
 
 
 
