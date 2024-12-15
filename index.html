@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 <head>
-   <title>Flick Verse</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Flick Verse - platforma z wideo i treściami edukacyjnymi.">
+   <meta name="keywords" content="wideo, filmy, nauka, technologia, historia, edukacja">
+   <meta name="author" content="Filip Ślemp">
+
    <link rel="stylesheet" href="Styles/videoGalleryStyle.css">
    <link rel="stylesheet" href="Styles/headerStyle.css">
    <link rel="stylesheet" href="Styles/style.css">
    <link rel="stylesheet" href="Styles/sidebarStyle.css">
-
    <script src="JavaScript/sidebarJS.js" defer></script>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,48 +19,55 @@
 
    <link rel="icon" href="Photos/Logo1.png" type="image/x-icon">
 
+   <title>Flick Verse</title>
 </head>
 
 <body>
 
    <div class="header" id="header">
       <div class="leftHeader">
-         <img id="burgerMenu" class="burgerMenu" src="Photos/svg_burger.svg">
-         <a href="index.html"><img class="headerLogo" src="Photos/FlickVerse.png"></a>
+         <img id="burgerMenu" class="burgerMenu" src="Photos/svg_burger.svg" alt="menuRozwijane">
+         <a href="index.html"><img class="headerLogo" src="Photos/FlickVerse.png" alt="Flick Verse"></a>
       </div>
 
       <div class="flexCenterHeader">         
          <div id="searchContainer" class="searchContainer">
             <input class="searchBar" type="text" placeholder="Szukaj">
-            <button class="searchButton"><img class="btnIcon" src="Photos/svg_search.svg"></button>
+            <button class="searchButton"><img class="btnIcon" src="Photos/svg_search.svg" alt="wyszukaj"></button>
         </div>
       </div>
       <div class="centerHeader">
          <input class="searchBar" type="text" placeholder="Szukaj">
-         <button class="searchButton"><img class="btnIcon" src="Photos/svg_search.svg"></button>
-         <button class="voiceWriteButton"><img class="btnIcon" src="Photos/svg_microphone.svg"></button>
+         <button class="searchButton"><img class="btnIcon" src="Photos/svg_search.svg" alt="wyszukaj"></button>
+         <button class="voiceWriteButton"><img class="btnIcon" src="Photos/svg_microphone.svg" alt="wyszukiwanie głosowe"></button>
       </div>
       <div class="rightHeader">
-         <a id="toggleSearch" class="rightIcon"><img class="rightIconImg" src="Photos/svg_search.svg"></a>
-         <a class="rightIcon"><img class="rightIconImg" src="Photos/svg_camcorder.svg"></a>
-         <a class="rightIcon"><img class="rightIconImg" src="Photos/svg_bell.svg"></a>
-         <a class="myProfile"><img class="rightProfileImg" src="ChannelPhotos/awatar_06.jpg"></a>
+         <a id="toggleSearch" class="rightIcon"><img class="rightIconImg" src="Photos/svg_search.svg" alt="wyszukaj"></a>
+         <a class="rightIcon"><img class="rightIconImg" src="Photos/svg_camcorder.svg" alt="Dodaj film"></a>
+         <a class="rightIcon"><img class="rightIconImg" src="Photos/svg_bell.svg" alt="Powiadomienia"></a>
+         <a class="myProfile"><img class="rightProfileImg" src="ChannelPhotos/awatar_06.jpg" alt="Mój profil"></a>
       </div>
    </div>
    
    
    <div id="sidebar" class="sidebar">
       <div class="sidebarIcon">
-         <img src="Photos/mainPageIcon.svg" alt="Strona główna">
-         <span>Strona główna</span>
+         <a href="index.html">
+            <img src="Photos/mainPageIcon.svg" alt="Strona główna">
+            <span>Strona główna</span>
+         </a>
       </div>
       <div class="sidebarIcon">
-         <img src="Photos/subscriptionsPageIcon.svg" alt="Subskrypcje">
-         <span>Subskrypcje</span>
+         <a href="pages/subskrypcje.html">
+            <img src="Photos/subscriptionsPageIcon.svg" alt="Subskrypcje">
+            <span>Subskrypcje</span>
+         </a>
       </div>
       <div class="sidebarIcon">
-         <img src="Photos/userPageIcon.svg" alt="Biblioteka">
-         <span>Ja</span>
+         <a href="pages/mojKanal.html">
+            <img src="Photos/userPageIcon.svg" alt="Biblioteka">
+            <span>Mój kanał</span>
+         </a>
       </div>
    </div>
    
@@ -67,7 +77,7 @@
    <div class="videoGrid">
       <div class="videoPreview">
          <div class="imageRow">
-            <img class="imageGallery" src="Photos/miniaturka_ptak.jpg">
+            <img class="imageGallery" src="Photos/miniaturka_ptak.jpg" alt="Miniatura filmu">
          </div>
 
          <div class="infoGrid">
@@ -84,7 +94,7 @@
 
       <div class="videoPreview">
          <div class="imageRow">
-            <img class="imageGallery" src="Photos/miniaturka_czarownica.png">
+            <img class="imageGallery" src="Photos/miniaturka_czarownica.png" alt="Miniatura filmu">
          </div>
 
          <div class="infoGrid">
@@ -101,7 +111,7 @@
 
       <div class="videoPreview">
          <div class="imageRow">
-            <img class="imageGallery" src="Photos/miniaturka_dodgeCharger.jpg">
+            <img class="imageGallery" src="Photos/miniaturka_dodgeCharger.jpg" alt="Miniatura filmu">
          </div>
 
          <div class="infoGrid">
@@ -118,7 +128,7 @@
 
       <div class="videoPreview">
          <div class="imageRow">
-            <img class="imageGallery" src="Photos/miniaturka_it.jpg">
+            <img class="imageGallery" src="Photos/miniaturka_it.jpg" alt="Miniatura filmu">
          </div>
 
          <div class="infoGrid">
@@ -135,7 +145,7 @@
 
       <div class="videoPreview">
          <div class="imageRow">
-            <img class="imageGallery" src="Photos/miniaturka_gory.jpg">
+            <img class="imageGallery" src="Photos/miniaturka_gory.jpg" alt="Miniatura filmu">
          </div>
 
          <div class="infoGrid">
@@ -152,7 +162,7 @@
 
       <div class="videoPreview">
          <div class="imageRow">
-            <img class="imageGallery" src="Photos/miniaturka_wojnaNaUkrainie.jpg">
+            <img class="imageGallery" src="Photos/miniaturka_wojnaNaUkrainie.jpg" alt="Miniatura filmu">
          </div>
 
          <div class="infoGrid">
@@ -169,7 +179,7 @@
 
       <div class="videoPreview">
          <div class="imageRow">
-            <img class="imageGallery" src="Photos/miniaturka_wojna.jpg">
+            <img class="imageGallery" src="Photos/miniaturka_wojna.jpg" alt="Miniatura filmu">
          </div>
 
          <div class="infoGrid">
@@ -186,7 +196,7 @@
 
       <div class="videoPreview">
          <div class="imageRow">
-            <img class="imageGallery" src="Photos/miniaturka_oldMustang.jpg">
+            <img class="imageGallery" src="Photos/miniaturka_oldMustang.jpg" alt="Miniatura filmu">
          </div>
 
          <div class="infoGrid">
@@ -203,7 +213,7 @@
 
       <div class="videoPreview">
          <div class="imageRow">
-            <img class="imageGallery" src="Photos/miniaturka_niedzwiedzPolarny.jpg">
+            <img class="imageGallery" src="Photos/miniaturka_niedzwiedzPolarny.jpg" alt="Miniatura filmu">
          </div>
 
          <div class="infoGrid">
